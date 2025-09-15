@@ -35,8 +35,11 @@ def home():
 # Leetcode Question Route
 @app.route('/api/question/random', methods=['GET'])
 def leetcode_question():
+    # Get random question
+    random_question = random.choice(leetcode_questions)
+    question_data = random_question['data']['question']
     return jsonify({
-        'question': random.choice(leetcode_questions)
+        'question': question_data
         })
 
 if __name__ == '__main__':
