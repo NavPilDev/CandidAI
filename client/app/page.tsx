@@ -290,7 +290,8 @@ export default function Home() {
               Perfect For
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Whether you're just starting out or looking to advance your career
+              Whether you&apos;re just starting out or looking to advance your
+              career
             </p>
           </div>
 
